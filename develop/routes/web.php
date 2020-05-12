@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('http://18.181.148.70/', function () {
+Route::get('/', function () {
     return view('welcome');
 });
